@@ -1,0 +1,19 @@
+<mvc:View controllerName="project2.controller.Input1" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<App>
+    <Page title="Input Tag">
+        <content>
+            <Input 
+                value="{/res/name}"
+                valueLiveUpdate="true"
+                description="hello {/res/name}"
+                width="70%"
+            />
+            <ToolbarSpacer/>
+            <HBox>
+            <RadioButton text="male" groupName="gender"/>
+            <RadioButton text="female" groupName="gender"/>
+            </HBox>
+        </content>
+    </Page>
+</App>
+</mvc:View>

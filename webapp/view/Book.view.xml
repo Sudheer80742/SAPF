@@ -1,0 +1,16 @@
+<mvc:View controllerName="project2.controller.Book"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App>
+        <pages>
+        <Page title="HomePage">
+        <mvc:XMLView viewName="project2.view.Table1"/>
+        <mvc:XMLView viewName="project2.view.Book2"/>
+        <mvc:XMLView viewName="project2.view.Box1"/>
+        <mvc:XMLView viewName="project2.view.List1"/>
+        <mvc:XMLView viewName="project2.view.Input1"/>
+        <mvc:XMLView viewName="project2.view.Button1"/>
+        </Page>
+        </pages>	
+    </App>
+</mvc:View>

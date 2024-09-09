@@ -1,0 +1,37 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<Page id="page" title="Table">
+        <Table id="edu">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="Education"/>
+            </Toolbar>
+        </headerToolbar>
+            <columns>
+                <Column><Text text="Qualification"/></Column>
+                <Column><Text text="Grade"/></Column>
+                <Column><Text text="PassOutYear"/></Column>
+            </columns>
+            <ColumnListItem>
+                <cells>
+                    <Text text="Btech"/>
+                    <Text text="84%"/>
+                    <Text text="2023"/>
+                </cells>
+            </ColumnListItem>
+            <ColumnListItem>
+                <cells>
+                    <Text text="Inter"/>
+                    <Text text="97%"/>
+                    <Text text="2019"/>
+                </cells>
+            </ColumnListItem>
+            <ColumnListItem>
+                <cells>
+                    <Text text="10th"/>
+                    <Text text="95%"/>
+                    <Text text="2017"/>
+                </cells>
+            </ColumnListItem>
+        </Table>
+        </Page>
+</mvc:View>

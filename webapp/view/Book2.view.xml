@@ -1,0 +1,26 @@
+<mvc:XMLView xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <App>
+        <Page title="DataBinding">
+            <content>
+                <Table id="myTable" items="{bo>/Books}">
+                    <columns>
+                        <Column><Text text="BookName"/></Column>
+                        <Column><Text text="BookAuthor"/></Column>
+                        <Column><Text text="BookPrice"/></Column>
+                        <Column><Text text="BookQuantity"/></Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="{bo>BookName}"/>
+                                <Text text="{bo>BookAuthor}"/>
+                                <Text text="{bo>BookPrice}"/>
+                                <Text text="{bo>BookQty}"/>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+            </content>
+        </Page>
+    </App>
+</mvc:XMLView>

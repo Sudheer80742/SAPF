@@ -1,0 +1,10 @@
+<mvc:View controllerName="project2.controller.Button1" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"> 
+<App>
+<pages>
+<Page title="Button Tag">
+<Button class="sapUiSmallMargin" text="Click it" press="onClic"/>
+<Text id="text1" />
+</Page>
+</pages>
+</App>
+</mvc:View>

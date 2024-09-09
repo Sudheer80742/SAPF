@@ -1,0 +1,22 @@
+{
+    "Books":[
+        {
+            "BookName":"Java",
+            "BookAuthor":"James",
+            "BookPrice":"$150",
+            "BookQty":"20"
+        },
+        {
+            "BookName":"Python",
+            "BookAuthor":"van Gosham",
+            "BookPrice":"$800",
+            "BookQty":"10"
+        },
+        {
+            "BookName":"Oracle",
+            "BookAuthor":"java",
+            "BookPrice":"$200",
+            "BookQty":"24"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App>
+    <Page title="List">
+    <VBox>
+        <items>
+            <Bar>
+                <contentLeft>
+                    <Button text="Left Button" />
+                </contentLeft>
+                <contentMiddle>
+                    <Title text="Middle Title" />
+                </contentMiddle>
+                <contentRight>
+                    <Button text="Right Button" />
+                </contentRight>
+            </Bar>
+             <VBox>
+                <items>
+                    <Text text="First Text" />
+                    <Text text="Second Text" />
+                    <Text text="Third Text" />
+                    <HBox>
+                    <items>
+                   
+                    <RadioButton text="Male" groupName="Gender"/>
+                    <RadioButton text="Female" groupName="Gender"/>
+                    <RadioButton text="butoon3"/>
+                    
+                    </items>
+                    </HBox>
+                </items>
+            </VBox>
+            <HBox>
+                <items>
+                    <Button text="Button 1" />
+                    <Button text="Button 2" />
+                    <Button text="Button 3" />
+                </items>
+            </HBox>
+           
+        </items>
+    </VBox>
+    </Page>
+    </App>
+</mvc:View>
